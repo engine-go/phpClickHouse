@@ -592,7 +592,6 @@ class Http
             return $this->getRequestWrite($sql);
         }
         $query = $this->prepareQuery($sql, $bindings);
-        $query->setFormat('JSON');
         return $this->getRequestRead($query, $whereInFile, $writeToFile);
     }
 
