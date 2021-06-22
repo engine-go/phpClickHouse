@@ -33,5 +33,11 @@
       "ClickHouseDB\\Tests\\": "tests/",
       "ClickHouseDB\\Example\\": "example/"
     }
-  }
+  },
+  "repositories": [
+    {
+        "type": "git",
+        "url": "https://github.com/engine-go/phpClickHouse"
+    },
+  ]
 }
